@@ -1,0 +1,198 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+<!-- Web Fonts  -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light&display=swap"
+    rel="stylesheet" type="text/css">
+
+<!-- Vendor CSS -->
+<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'vendor/fontawesome-free/css/all.min.css' %}">
+<link rel="stylesheet" href="{% static 'vendor/animate/animate.compat.css' %}">
+<link rel="stylesheet" href="{% static 'vendor/simple-line-icons/css/simple-line-icons.min.css' %}">
+<link rel="stylesheet" href="{% static 'vendor/magnific-popup/magnific-popup.min.css' %}">
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="{% static 'css/theme.css' %}">
+<link rel="stylesheet" href="{% static 'css/theme-elements.css' %}">
+<link rel="stylesheet" href="{% static 'css/theme-blog.css' %}">
+<link rel="stylesheet" href="{% static 'css/theme-shop.css' %}">
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+<!-- Current Page CSS -->
+<link rel="stylesheet" href="{% static 'vendor/circle-flip-slideshow/css/component.css' %}">
+<!-- Skin CSS -->
+<link rel="stylesheet" href="{% static 'css/skins/default.css' %}">
+
+<!-- Theme Custom CSS -->
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+<!-- Head Libs -->
+<script src="{% static 'vendor/modernizr/modernizr.min.js' %}"></script>
+
+
+{% block body %}
+
+<div class="body" style="background-color : #D4EED0;">
+    <div class="row" style="	background-color : #D4EED0;padding-top: 4.5rem; margin-top: -10px;">
+        <div class="random2 col-lg-2 mr-5" style="margin-left: 2.6em;">
+            <ul class="list list-icons" >
+                    <li>
+                        <a type="button" class="btn btn-light mb-2 " href="/category/apple"><img src="{% static 'img/category/Apple/apple.png' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem; background-color : #D4EED0;;"></i>  Apple</a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/blueberry"><img src="{% static 'img/category/Blueberry/blueberry.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>     Blueberry</a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/cherry"><img src="{% static 'img/category/Cherry/cherry.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>   Cherry</a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/potato"><img src="{% static 'img/category/Potato/potato.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i> Potato</a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/corn"><img src="{% static 'img/category/Corn/corn.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Corn</a>
+                    </li>					<li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/grape"><img src="{% static 'img/category/Grape/grape.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Grape</a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/orange"><img src="{% static 'img/category/Orange/orange.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Orange</a>
+                    </li>
+                                    <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/peach"><img src="{% static 'img/category/Peach/peach.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Peach</a>
+                    </li>
+                                                   <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/pepper"><img src="{% static 'img/category/Pepper_Bell/bellpepper.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Pepper Bell</a>
+                    </li>
+                                                                   <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/raspberry"><img src="{% static 'img/category/Raspberry/raspberry.png' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Raspberry</a>
+                    </li>
+                                                                   <li>
+                        <a type="button" class="btn btn-light mb-2" href="/category/soyabean"><img src="{% static 'img/category/Soyabean/soybean.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Soyabean</a>
+                    </li>
+                                       <li> <a type="button" class="btn btn-light mb-2" href="/category/squash"><img src="{% static 'img/category/Squash/squash.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Squash</a>
+                    </li>
+                                                       <li> <a type="button" class="btn btn-light mb-2" href="/category/strawberry"><img src="{% static 'img/category/Strawberry/strawberry.png' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Strawberry</a>
+                    </li>
+                                                                       <li> <a type="button" class="btn btn-light mb-2" href="/category/tomato"><img src="{% static 'img/category/Tomato/tomato.jpg' %}" width="30" height="30"
+                            style="border-radius: 100%; margin-right: 1rem;"></i>Tomato</a>
+                    </li>
+            </ul>              
+        </div>
+        <div class="random1 col-lg-6 mr-3 ml-3">
+            <div class="row mb-2 pt-4 pl-3 pb-4 " style="background-color: white; border: 1px solid rgba(99, 99, 99, 0.247)">
+                <div class="col-auto mr-0 pr-0">
+                    <img src="{% static 'img/iuser.png' %}" width="40" height="40" style="border-radius: 100%;">
+                </div>
+                {% if user.is_authenticated %}
+                    <div class="col-auto pl-2 pt-0">
+                        <a class=" btn btn-modern" href="/ask-question">What's is your question?</a>
+                    </div>
+                {% else %}
+                    <div class="col-auto pl-2 pt-0">
+                        <a class=" btn btn-modern" href="/detect">Detect Disease</a>
+                    </div>
+                {% endif %}
+                 <!-- Form -->
+                <form id="demo-form" class="white-popup-block mfp-hide">
+                    <div class="form-row mt-2">
+                        <div class="col-sm-12">
+                            <h4>Add question</h4>
+                            <div class="container">
+                                <center> <h1>Ask a Question</h1>
+                                 <p>Type your question below. You can also use Markdown to help format your question.</p></center>
+                                 <form class="" action="ask-question" method="post" class="forms1" style="margin-top: 1.3em;align-items:center;">
+                                     {% csrf_token %}
+                                   <div class="form-group">
+                             <label for="Question Title">Category</label>
+                             <select class="form-control" id="title" name="title" style="box-shadow: 2.5px 2.5px 2.5px grey;">
+                               <option>Medical</option>
+                               <option>Education</option>
+                               <option>Science</option>
+                               <option>BLBLA</option>
+                               <option>Other</option>
+                             </select>
+                           </div><br>
+                            <div class="form-group">
+                             <textarea  name="question" class="form-control" id="question" rows="8" placeholder="Whats your question?" style="box-shadow: 2.5px 2.5px 2.5px grey;" required></textarea>
+                           </div><br>
+                         <div class="form-group">
+                             <input type="text" class="form-control" id="posted_by" name="posted_by" autocomplete="off" placeholder="Enter your name ..."style="box-shadow: 2.5px 2.5px 2.5px grey;"required>
+                           </div><br>
+                           {% csrf_token %}
+                           <input type="submit" name="ask"  class="btn btn-primary" value="Ask Question" style="box-shadow: 2.5px 2.5px 2.5px grey;">
+                                 </form>
+                         </div>
+                        </div>
+                    </div>
+                    </form>
+                    
+             </div> 
+            {% for Ask2 in postss %}
+            <div class="card row mb-2 p-4">
+                <div class="row">
+                    <div class="col-auto mr-0 pr-0"><img src="{% static 'img/iuser.png' %}" width="30" height="30"
+                            style="border-radius: 100%;"></div>
+                    <div class="col-auto pl-2">
+                        <p>{{Ask2.posted_by}}</p>
+                    </div>
+                    <div class="col-auto ml-0 pl-0">
+                        <p style="color: rgba(0, 0, 0, 0.212)">{{Ask2.date_posted}}</p>
+                    </div>
+                    <div class="col-auto ml-0 pl-0" style="text-transform: uppercase !important; font-weight: bold !important;">{{ Ask2.question_title }}</div>
+                </div>
+                <a href="/question/{{Ask2.qid}}/{{Ask2.slug}}"">
+                    <h4>{{Ask2.question_text|safe}} </h4>
+                </a>
+                
+            </div>
+            {% endfor %}
+        </div>
+        <div class="random 1 col-lg-2 ml-4">
+            <div class="card row border-radius-2 bg-color-light box-shadow-1 p-3">
+                <div class="card-body">
+                    <h4 class="card-title mb-1 text-4 font-weight-bold"># Fun Fact</h4>
+                    <p class="card-text">Farming began around 10,000 B.C. during the First Agricultural Revolution, when nomadic tribes began to farm. Additionally, this is when the eight so-called “founder crops” of agriculture appeared: 1) emmer wheat, 2) einkorn wheat, 3) hulled barley, 4) peas, 5) lentils, 6) bitter vetch, 7) chickpeas, and 8) flax.</p>
+                </div>
+            </div>
+            <div class="card row border-radius-2 bg-color-light box-shadow-1 p-3 mt-2">
+                <div class="card-body">
+                    <h4 class="card-title mb-1 text-4 font-weight-bold"># Fun fact</h4>
+                    <p class="card-text">The Mesopotamians built the first simple irrigation system around 7000 B.C. The earliest large-scale irrigation system was created around 4000 B.C. in southern Russia. This system had canals up to 10 feet across and more than a mile long.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-12345678-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+     -->
+
+ {% endblock %}
+
+
